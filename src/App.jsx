@@ -22,8 +22,8 @@ const App = () => {
             <div className={`${styles.paddingX} ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
                     <About />
-                    <Services />
                     <Mission />
+                    <Services />
                     <Choose />
                     <Footer />
                 </div>
