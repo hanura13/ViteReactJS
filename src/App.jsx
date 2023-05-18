@@ -3,6 +3,7 @@ import {
     Navbar, About, Choose, Footer,
     Hero, Mission, Services
 } from './components'
+import Stats from './components/Stats'
 
 const App = () => {
     return (
@@ -21,6 +22,7 @@ const App = () => {
 
             <div className={`${styles.paddingX} ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
+                    <Stats />
                     <About />
                     <Mission />
                     <Services />
