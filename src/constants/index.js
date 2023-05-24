@@ -59,3 +59,26 @@ export const stats =[
         title: "Trusted",
     },
 ];
+
+export const choose =[
+    {
+        id:"choose-2",
+        title: "Comprehensive",
+        content:"We offer a wide range of survey services to meet all your cargo surveying needs."
+    },
+    {
+        id:"choose-3",
+        title: "Advance Technology",
+        content:"We use the latest equipment and technology to ensure accurate and reliable results."
+    },
+    {
+        id:"choose-4",
+        title: "Timely and Eficient Service",
+        content:"We understand the importance of timely and efficient service, and we work closely with our clients to meet their specific needs."
+    },
+    {
+        id:"choose-5",
+        title: "Competitive Pricing",
+        content:"We offer competitive pricing for all our services, without compromising on quality."
+    },
+];
