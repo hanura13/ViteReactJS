@@ -107,6 +107,14 @@
   }
 }
 
+.choose-card:hover {
+  background: linear-gradient(
+    135deg,
+    hsla(238, 37%, 55%, 1) 9%,
+    hsla(238, 69%, 25%, 1) 100%
+  );
+}
+
 .feature-card:hover {
   background: linear-gradient(
     157.81deg,

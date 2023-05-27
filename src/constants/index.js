@@ -82,3 +82,21 @@ export const choose =[
         content:"We offer competitive pricing for all our services, without compromising on quality."
     },
 ];
+
+export const contact =[
+    {
+        id:"contact-1",
+        title: "Office",
+        content: "Jalan Gading Kirana Timur A-11/15 Rt 001 Rw 08 Kelapa Gading, Jakarta Utara 14240"
+    },
+    {
+        id:"contact-2",
+        title: "Phone",
+        content: "+6221 3111 8055 ext 0"
+    },
+    {
+        id:"contact-3",
+        title: "Email",
+        content: "survey@cakrawalasamudera.com"
+    },
+];
