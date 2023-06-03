@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from '../style'
+import { logo } from '../assets'
 import GetStarted from './GetStarted'
 
 const Hero = () => (
@@ -23,6 +24,7 @@ const Hero = () => (
                 certified.
             </p>
 
+            <img src={logo} alt="css" className="w-[120px] h-[120px]" />
             <div className={`ss:hidden ${styles.flexCenter} mt-5`}>
                 <GetStarted />
             </div>

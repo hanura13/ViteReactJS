@@ -11,7 +11,7 @@ const Footer = () => (
                     reach us by phone, email, or through our website contact form. We look forward to working with you!</p>
             </div>
 
-            <div className='flex flex-col md:mt-0 mt-5'>
+            <div className='flex flex-col md:mt-0 mt-5 ml-5'>
                 {contact.map((Contact, index) => (
                     <p className='mt-5'>{Contact.title}: {Contact.content}</p>
                 ))}
