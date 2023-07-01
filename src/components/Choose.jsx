@@ -13,9 +13,9 @@ const Choose = () => (
             </div>
         </div>
 
-        <div className='flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]'>
-            {choose.map((card) => (
-                <ChooseCard key={choose.id} {...card} />
+        <div id='chooseCard' className='flex flex-wrap sm:justify-start justify-center w-full feedback-container relative z-[1]'>
+            {choose.map((card, index) => (
+                <ChooseCard key={card.id} {...card} index={index} />
             ))}
         </div>
     </section>

@@ -24,7 +24,7 @@ const Hero = () => (
                 certified.
             </p>
 
-            <img src={logo} alt="css" className="w-[120px] h-[120px]" />
+            {/* <img src={logo} alt="css" className="w-[120px] h-[120px]" /> */}
             <div className={`ss:hidden ${styles.flexCenter} mt-5`}>
                 <GetStarted />
             </div>

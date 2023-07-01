@@ -3,7 +3,7 @@ import styles, { layout } from '../style'
 import Button from './Button'
 
 const Services = () => (
-    <section className={layout.section}>
+    <section id='services' className={layout.section}>
         <div className={layout.sectionInfo}>
             <h2 className={styles.heading2}>Services</h2>
             <p className={`${styles.paragraph} max-w-[470px] mt-5`}>

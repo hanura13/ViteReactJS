@@ -5,6 +5,7 @@ import Footer from './Footer'
 import Hero from './Hero'
 import Mission from './Mission'
 import Services from './Services'
+import Slider from './Slider'
 
 export {
     Navbar,
@@ -13,5 +14,6 @@ export {
     Footer,
     Hero,
     Mission,
-    Services
+    Services,
+    Slider
 }

@@ -1,7 +1,7 @@
 import styles from './style'
 import {
     Navbar, About, Choose, Footer,
-    Hero, Mission, Services
+    Hero, Mission, Services, Slider
 } from './components'
 import Stats from './components/Stats'
 
@@ -14,15 +14,17 @@ const App = () => {
                 </div>
             </div>
 
+
             <div className={`${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
+                    <Slider />
                     <Hero />
                 </div>
             </div>
 
             <div className={`${styles.paddingX} ${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
-                    <Stats />
+
                     <About />
                     <Mission />
                     <Services />

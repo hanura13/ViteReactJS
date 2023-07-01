@@ -1,4 +1,4 @@
-import {star, send, shield} from '../assets'
+import {star, send, shield,slide1, slide2, slide3, slide4, slide5, slide6} from '../assets'
 
 
 
@@ -12,15 +12,15 @@ export const navLinks = [
         title : 'About'
     },
     {
-        id:'missions',
-        title:'Missions'
+        id:'mission',
+        title:'Mission'
     },
     {
         id:'services',
         title:'Services'
     },
     {
-        id:'choose',
+        id:'chooseus',
         title:'Choose'
     },
 ];
@@ -63,22 +63,22 @@ export const stats =[
 
 export const choose =[
     {
-        id:"choose-2",
+        id:"choose-1",
         title: "Comprehensive",
         content:"We offer a wide range of survey services to meet all your cargo surveying needs."
     },
     {
-        id:"choose-3",
+        id:"choose-2",
         title: "Advance Technology",
         content:"We use the latest equipment and technology to ensure accurate and reliable results."
     },
     {
-        id:"choose-4",
+        id:"choose-3",
         title: "Timely and Eficient Service",
         content:"We understand the importance of timely and efficient service, and we work closely with our clients to meet their specific needs."
     },
     {
-        id:"choose-5",
+        id:"choose-4",
         title: "Competitive Pricing",
         content:"We offer competitive pricing for all our services, without compromising on quality."
     },
@@ -99,5 +99,32 @@ export const contact =[
         id:"contact-3",
         title: "Email",
         content: "survey@cakrawalasamudera.com"
+    },
+];
+
+export const slide = [
+    {
+        id:'slide-1',
+        icon: slide1
+    },
+    {
+        id:'slide-2',
+        icon: slide2
+    },
+    {
+        id:'slide-3',
+        icon: slide3
+    },
+    {
+        id:'slide-4',
+        icon: slide4
+    },
+    {
+        id:'slide-5',
+        icon: slide5
+    },
+    {
+        id:'slide-6',
+        icon: slide6
     },
 ];
