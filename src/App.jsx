@@ -17,7 +17,7 @@ const App = () => {
 
             <div className={`${styles.flexStart}`}>
                 <div className={`${styles.boxWidth}`}>
-                    <Slider />
+                    <Slider autoSlide={true} />
                     <Hero />
                 </div>
             </div>
