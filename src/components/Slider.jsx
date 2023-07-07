@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react'
-import styles from '../style'
+import styles, { layout } from '../style'
 import { ChevronRightIcon, ChevronLeftIcon, RxDotFilled } from '../assets'
 import { slide } from '../constants'
 
@@ -28,15 +28,13 @@ const Slider = ({ autoSlide = false, autoSlideInterval = 3000 }) => {
     }, [prevSlide])
 
     return (
-        <section id='slider' className={`${styles.padding} max-w-[2200px] h-[580px] w-full m-auto group`}>
-            <div style={{ backgroundImage: `url(${slide[currentIndex].icon})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500 transition-transform ease-out'>
-
-            </div>
+        <section id='slider' className={`${styles.padding} max-w-ss h-[580px] group md:relative`}>
+            <div style={{ backgroundImage: `url(${slide[currentIndex].icon})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500 transition-transform ease-out' />
 
             <div onClick={prevSlide} className={`${styles.arrowChevron} hidden group-hover:block`}>
                 <ChevronLeftIcon sx={{ fontSize: 30 }} />
             </div>
-            <div onClick={nextSlide} className={`${styles.arrowChevron} md:right-6 right-0 md:mr-10 mr-6 sm:right-6 sm:mr-10 hidden group-hover:block`}>
+            <div onClick={nextSlide} className={`${styles.arrowChevron} items-center md:right-6 right-0 md:mr-10 mr-6 sm:right-6 sm:mr-10 hidden group-hover:block`}>
                 <ChevronRightIcon sx={{ fontSize: 30 }} />
             </div>
 
