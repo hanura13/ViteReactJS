@@ -41,7 +41,7 @@ const Slider = ({ autoSlide = false, autoSlideInterval = 3000 }) => {
             <div className='flex top-4 justify-center py-2'>
                 {slide.map((slides, slideIndex) => (
                     <div key={slideIndex} onClick={() => goToSlide(slideIndex)} className='md:text-2xl text-lg cursor-pointer '>
-                        <RxDotFilled className={`hover:text-gray-500 transition-all ${currentIndex === slideIndex ? 'p-1 text-gray-500' : 'bg-opacity-50'}`} />
+                        <RxDotFilled className={`hover:text-amber-500  transition-all ${currentIndex === slideIndex ? 'p-1 text-amber-500' : 'bg-opacity-50'}`} />
                     </div>
                 ))}
             </div>
