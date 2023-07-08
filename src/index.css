@@ -19,14 +19,20 @@
 }
 
 .text-gradient {
-  background: radial-gradient(
-    64.18% 64.18% at 71.16% 35.69%,
-    #def9fa 0.89%,
-    #bef3f5 17.23%,
-    #9dedf0 42.04%,
-    #7de7eb 55.12%,
-    #5ce1e6 71.54%,
-    #33bbcf 100%
+  background: linear-gradient(
+    135deg,
+    #f6c896,
+    #f7c088,
+    #f7b879,
+    #f8af6c,
+    #f9a65e,
+    #fa9d51,
+    #fb9445,
+    #fc8938,
+    #fc7f2c,
+    #fd731f,
+    #fe6711,
+    #ff5900
   );
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -36,13 +42,15 @@
 
 .bg-blue-gradient {
   background: linear-gradient(
-    157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+    135deg,
+    #ccc7ff,
+    #beb8ff,
+    #afa8ff,
+    #9f99ff,
+    #8f8aff,
+    #7e7bff,
+    #6b6cff,
+    #545dff
   );
 }
 
@@ -110,20 +118,28 @@
 .choose-card:hover {
   background: linear-gradient(
     135deg,
-    hsla(238, 37%, 55%, 1) 9%,
-    hsla(238, 69%, 25%, 1) 100%
+    #ccc7ff,
+    #beb8ff,
+    #afa8ff,
+    #9f99ff,
+    #8f8aff,
+    #7e7bff,
+    #6b6cff,
+    #545dff
   );
 }
 
 .feature-card:hover {
   background: linear-gradient(
-    157.81deg,
-    #def9fa -43.27%,
-    #bef3f5 -21.24%,
-    #9dedf0 12.19%,
-    #7de7eb 29.82%,
-    #5ce1e6 51.94%,
-    #33bbcf 90.29%
+    135deg,
+    #ccc7ff,
+    #beb8ff,
+    #afa8ff,
+    #9f99ff,
+    #8f8aff,
+    #7e7bff,
+    #6b6cff,
+    #545dff
   );
   box-shadow: var(--card-shadow);
 }

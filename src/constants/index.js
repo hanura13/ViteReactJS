@@ -25,6 +25,13 @@ export const navLinks = [
     },
 ];
 
+export const footerLink=[
+    {
+        id:'footer',
+        title: 'Footer',
+    }
+];
+
 export const features =[
     {
         id: "feature-1",

@@ -2,7 +2,7 @@ import styles, { layout } from '../style'
 import { contact } from '../constants'
 
 const Footer = () => (
-    <section>
+    <section id='footer'>
         <div className={`${layout.section} border-t-2`}>
             <div>
 

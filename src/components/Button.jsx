@@ -1,10 +1,22 @@
 import React from 'react'
+import { footerLink } from '../constants'
+
 
 const Button = ({ styles }) => {
     return (
-        <button type='button' className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px]`}>
-            Get Started
-        </button>
+        <div>
+            {footerLink.map((nav, index) => (
+                <div key={nav.id}>
+                    <a href={`#${nav.id}`}>
+
+                        <button type='button' className={`py-4 px-6 bg-blue-gradient font-poppins font-medium text-[18px] text-primary outline-none ${styles} rounded-[10px]`} >
+                            Get Started
+                        </button >
+                    </a>
+
+                </div>
+            ))}
+        </div >
     )
 }
 

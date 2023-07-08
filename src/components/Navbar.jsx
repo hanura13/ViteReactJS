@@ -7,12 +7,13 @@ const Navbar = () => {
 
 
     return (
-        <nav className="bg-gray-800 w-full flex py-3 justify-between items-center navbar">
+        <nav className="bg-gray-800 w-full flex py-3 justify-between items-center navbar shadow-md">
+            <h1 className="font-poppins text-white cursor-pointer hover:text-amber-500">PT.Cakrawala Samudra Survindo</h1>
 
             <ul className="list-none sm:flex hidden justify-end items-center flex-1">
                 {navLinks.map((nav, index) => (
                     <li key={nav.id}
-                        className={`font-poppins font-normal cursor-pointer text-[16px] text-white hover:text-secondary
+                        className={`font-poppins font-normal cursor-pointer text-[16px] text-white hover:text-amber-500
                         ${index === navLinks.length - 1 ? 'mr-0' : 'mr-10'}`}>
                         <a href={`#${nav.id}`}>
                             {nav.title}

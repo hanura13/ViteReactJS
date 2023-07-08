@@ -28,8 +28,8 @@ const Slider = ({ autoSlide = false, autoSlideInterval = 3000 }) => {
     }, [prevSlide])
 
     return (
-        <section id='slider' className={`${styles.padding} max-w-ss h-[580px] group md:relative`}>
-            <div style={{ backgroundImage: `url(${slide[currentIndex].icon})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500 transition-transform ease-out' />
+        <section id='slider' className={`${styles.padding} max-w-[2800px] h-[580px] group md:relative`}>
+            <div style={{ backgroundImage: `url(${slide[currentIndex].icon})` }} className='w-full h-full rounded-2xl bg-center bg-cover duration-500 transition-transform ease-out shadow-lg' />
 
             <div onClick={prevSlide} className={`${styles.arrowChevron} hidden group-hover:block`}>
                 <ChevronLeftIcon sx={{ fontSize: 30 }} />

@@ -8,7 +8,7 @@ import Stats from './components/Stats'
 const App = () => {
     return (
         <div className='w-full overflow-hidden'>
-            <div className={`${styles.paddingX} ${styles.flexCenter}`}>
+            <div className={`${styles.paddingX} ${styles.flexCenter} bg-gray-800`}>
                 <div className={`${styles.boxWidth}`}>
                     <Navbar />
                 </div>
