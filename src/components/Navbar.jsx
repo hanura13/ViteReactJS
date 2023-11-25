@@ -8,7 +8,7 @@ const Navbar = () => {
 
     return (
         <nav className="bg-gray-800 w-full flex py-3 justify-between items-center navbar shadow-md">
-            <h1 className="font-poppins text-white cursor-pointer hover:text-amber-500">PT.Cakrawala Samudra Survindo</h1>
+            <h1 className="font-poppins text-white cursor-pointer hover:text-amber-500">PT.Cakrawala Samudera Survindo</h1>
 
             <ul className="list-none sm:flex hidden justify-end items-center flex-1">
                 {navLinks.map((nav, index) => (
